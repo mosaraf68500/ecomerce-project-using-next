@@ -58,7 +58,7 @@ A modern, responsive e-commerce application built with Next.js 15 featuring prod
    \`\`\`
 
 5. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+   Navigate to [http://localhost:3002](http://localhost:3002)
 
 ## 📋 Route Summary
 
@@ -130,40 +130,8 @@ A modern, responsive e-commerce application built with Next.js 15 featuring prod
 - **Body:** DM Sans (400, 500 weights)
 - **Responsive:** Mobile-first approach with consistent spacing
 
-## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy automatically
 
-### Other Platforms
-The app can be deployed to any platform that supports Next.js:
-- Netlify
-- Railway
-- DigitalOcean App Platform
-
-## 📝 Development Notes
-
-### Data Storage
-- Products are stored in `data/products.json`
-- File-based storage is used for simplicity
-- In production, consider migrating to a database (PostgreSQL, MongoDB)
-
-### Adding New Features
-- Follow the existing component structure
-- Use TypeScript for type safety
-- Maintain responsive design principles
-- Add proper error handling and loading states
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
