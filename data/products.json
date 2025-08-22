@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Headphones",
+    "description": "Premium noise-cancelling wireless headphones with superior sound quality.",
+    "price": 299.99,
+    "category": "Electronics",
+    "image": "https://i.ibb.co.com/MyPz8Xq4/download.jpg",
+    "inStock": true,
+    "rating": 4.5,
+    "reviews": 128,
+    "features": [
+      "Noise Cancellation",
+      "30-hour Battery",
+      "Quick Charge",
+      "Bluetooth 5.0"
+    ],
+    "specifications": {
+      "Battery Life": "30 hours",
+      "Charging Time": "2 hours",
+      "Weight": "250g",
+      "Connectivity": "Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Smart Watch",
+    "description": "Advanced fitness tracking smartwatch with heart rate monitoring.",
+    "price": 399.99,
+    "category": "Electronics",
+    "image": "https://i.ibb.co.com/MyPz8Xq4/download.jpg",
+    "inStock": true,
+    "rating": 4.3,
+    "reviews": 89,
+    "features": [
+      "Heart Rate Monitor",
+      "GPS Tracking",
+      "Water Resistant",
+      "Sleep Tracking"
+    ],
+    "specifications": {
+      "Display": "1.4\" AMOLED",
+      "Battery Life": "7 days",
+      "Water Resistance": "5ATM",
+      "Sensors": "Heart Rate, GPS, Accelerometer"
+    }
+  }
+]
