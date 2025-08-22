@@ -92,3 +92,87 @@ A modern, responsive e-commerce application built with Next.js 15 featuring prod
    - Features list
    - Category and availability
 3. Submit the form to add the product to the catalog
+
+## 📁 Project Structure
+
+\`\`\`
+├── app/
+│   ├── api/
+│   │   └── products/          # API routes for product operations
+│   ├── dashboard/             # Admin dashboard pages
+│   ├── products/              # Public product pages
+│   ├── globals.css            # Global styles and design tokens
+│   ├── layout.tsx             # Root layout with fonts and providers
+│   └── page.tsx               # Homepage
+├── components/
+│   └── ui/                    # shadcn/ui components
+├── lib/
+│   ├── products.ts            # Product data and utilities
+│   ├── storage.ts             # File-based storage utilities
+│   └── utils.ts               # General utility functions
+├── data/
+│   ├── products.json          # Product data storage
+│   └── users.json             # User data storage
+└── public/                    # Static assets
+\`\`\`
+
+## 🎨 Design System
+
+### Colors
+- **Primary:** Emerald green (#10b981)
+- **Secondary:** Slate gray (#64748b)
+- **Accent:** Orange (#f97316)
+- **Background:** White/Gray variants
+- **Text:** Dark gray (#1f2937)
+
+### Typography
+- **Headings:** Space Grotesk (600, 700 weights)
+- **Body:** DM Sans (400, 500 weights)
+- **Responsive:** Mobile-first approach with consistent spacing
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy automatically
+
+### Other Platforms
+The app can be deployed to any platform that supports Next.js:
+- Netlify
+- Railway
+- DigitalOcean App Platform
+
+## 📝 Development Notes
+
+### Data Storage
+- Products are stored in `data/products.json`
+- File-based storage is used for simplicity
+- In production, consider migrating to a database (PostgreSQL, MongoDB)
+
+### Adding New Features
+- Follow the existing component structure
+- Use TypeScript for type safety
+- Maintain responsive design principles
+- Add proper error handling and loading states
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Icons from [Lucide](https://lucide.dev/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+
