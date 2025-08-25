@@ -72,13 +72,13 @@ export default function HomePage() {
                   Products
                 </Link>
                 <Link
-                  href="/about"
+                  href="/About"
                   className="text-muted-foreground hover:text-primary px-4 py-2 rounded-md text-base font-medium transition-colors duration-200"
                 >
                   About
                 </Link>
                 <Link
-                  href="/contact"
+                  href="/About"
                   className="text-muted-foreground hover:text-primary px-4 py-2 rounded-md text-base font-medium transition-colors duration-200"
                 >
                   Contact
